@@ -101,7 +101,9 @@ app.post('/signin', (req, res) => {
   
 })
 
+const PORT = process.env.PORT;
 
-app.listen(process.env.PORT || 3000, () => {
-    console.log('Port running on port ${process.env.PORT}');
+app.listen(PORT || 3000, () => {
+    console.log(`Port running on port ${PORT}`);
 });
+console.log(PORT);
