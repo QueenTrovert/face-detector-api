@@ -6,7 +6,7 @@ import knex from 'knex';
 const db = knex({
     client: 'pg',
     connection: {
-        host: '127.0.0.1',
+        host: 'postgresql-perpendicular-27557',
         user: 'postgres',
         password: '1234567890',
         database: 'face_recognition'
