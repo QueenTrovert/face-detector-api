@@ -23,7 +23,7 @@ app.use(cors());
 
 
 app.get('/', (req, res) => {
-    res.send("<h1>testtest");
+    res.send("<h1>YOOOOOOOOOOOOOOOOO");
 
 })
 
@@ -106,4 +106,3 @@ const PORT = process.env.PORT;
 app.listen(PORT || 3000, () => {
     console.log(`Port running on port ${PORT}`);
 });
-console.log(PORT);
